@@ -100,7 +100,7 @@ is a null operator, while
 
 moves to the parent directory. Please take a moment to navigate around the directory tree of your computer and familiarize yourself with these commands.
 
-Help on any of these commands can be obtained by typing, for the command ls, for example,
+Help on any of these commands can be obtained by typing, for the command `ls`, for example,
 
 `man ls`
 
@@ -108,7 +108,7 @@ where man stands for manual.
 
 Files can be copied (`cp`), moved (`mv`), or deleted (`rm`). Use `man` to get more information on these commands.
 
-Using a command line interface is often the preferred method for navigating directories, or projects with multiple files, especially when one is using a version control system such as git.
+Using a command line interface is often the preferred method for navigating directories, or projects with multiple files, especially when one is using a version control system such as `git`.
 
 ## Testing your anaconda installation
 
