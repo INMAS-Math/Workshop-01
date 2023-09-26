@@ -1,7 +1,7 @@
-# Workshop-01
-This material is part of INMAS Workshop #1 - Basic Python
+# Internship Network in Mathematical Sciences - Workshop #1
+This Workshop is a basic introduction to Python which will lay the foundations required for the rest of the INMAS program. Python has been selected as a language of choice due to its ubiquitous use in the industry and the reduced time, compared to other popular languages, for developing a prototype application. This is mainly thanks to the braod availibility of modules that were developed for the language, allowing to interface with many other programming languages (e.g., C), applications (e.g., excel), and interfaces (e.g., the web or the operating system).
 
-Content
+Here is an overview of the modules that are part of the Workshop.
 
 | *Module* | 	*Content* |
 | ---------| --------------------------| 
@@ -23,14 +23,10 @@ Content
 |15 |  Visualizing using Seaborn |
 |16 |  Redfin mini-project |
 
+# Anaconda Starter
+The material of this workshop is based on using jupyter notebooks. We will first describe how to get a proper installation of Anaconda.
 
-![](RackMultipart20230926-1-5ygp1t_html_7804e1229eceb0e0.jpg)Internship Network in Mathematical Sciences
-
-Anaconda Starter
-
-Last Edited Sep 18, 2023
-
-**Introduction**
+## Introduction
 
 [Anaconda](../anaconda.com) is an open-source distribution of Python (and R, another programming language) and a suite of useful packages. It integrates a number of features that are used in the INMAS educational content, including an interactive user interface (jupyter) for running notebooks and installing Python packages.
 
@@ -38,11 +34,11 @@ In this brief tutorial we will show how to install Anaconda, how to verify a pro
 
 _Note: If you already have a preferred Python setup that allows you to run a jupyter notebook, we recommend that you use the latest version of Anaconda as many packages might have evolved since the version you have and not be compatible with the notebooks we developed._
 
-_**Installation**_
+## Installation
 
 Installation of Anaconda is relatively straightforward, just go to this [link](http://anaconda.com/), and click the download icon which should automatically detect your operating system. Else, you could look for the _Anaconda installers_ box at the bottom of the web page. At the time of this writing, the latest version is Anaconda 23.7.4 or 2023.07.2 using Python 3.11.
 
-_Upgrade_
+### Upgrade
 
 If you already have a version of Anaconda installed, it is recommended that you upgrade it to the latest version. The simplest way to update is to uninstall your current version of Anaconda and start with a fresh install as described above, as updating using conda will not update your version of Python but rather will require the creation of a whole new environment based on the newer Python version.
 
@@ -54,7 +50,7 @@ You should then get something like this:
 
 Make sure that the versions of both Python and Anaconda match the version described above and in this window.
 
-_**Opening the Navigator**_
+## Opening the Navigator
 
 Following a successful installation, you should be able to open the Anaconda navigator.
 
@@ -76,7 +72,7 @@ Upon successfully opening the navigator you should see something resembling the 
 
 The navigator can be used to start many applications. Those of interest to us are mainly the jupyter notebook and a terminal shell. The advantage of starting a command shell from the navigator is that all the environment variables are already pre-configured for Python. On Windows, we recommend using the PowerShell Prompt over CMD, as the former provides command line editing and history and is therefore more user friendly.
 
-_**Navigating using a command shell**_
+## Navigating using a command shell
 
 It is sometimes easier to use command line interface over a graphical user interface. Starting a terminal can be done through the anaconda navigator, through starting a terminal on Mac or Linux. Navigating files and directories consists of using the following five basic commands:
 
@@ -106,7 +102,7 @@ Files can be copied (`cp`), moved (`mv`), or deleted (`rm`). Use `man` to get mo
 
 Using a command line interface is often the preferred method for navigating directories, or projects with multiple files, especially when one is using a version control system such as git.
 
-_ **Testing your anaconda installation** _
+## Testing your anaconda installation
 
 First start a terminal shell from the Anaconda Navigator or otherwise. Then type
 
@@ -118,7 +114,7 @@ and make sure that the version is 23.7.4 with Python being 3.11.4.final. The com
 
 will list all the packages installed on your computer and their version numbers. Notice that the packages contain matplotlib, numpy, pandas, and seaborn packages that we will learn about and use during the training. A successful installation should have a large number of packages available (including those mentioned) and should have the proper versions listed above.
 
-_**Downloading the notebooks**_
+## Downloading the notebooks
 
 The notebooks for the Workshop are available from github. You can download the material for the workshop at:
 
@@ -128,7 +124,7 @@ Click on the code icon to get a zip file containing all the material. Alternativ
 
 `git clone https://github.com/INMAS-Math/Workshop-01.git`
 
-_**Opening and running a jupyter notebook**_
+## Opening and running a jupyter notebook
 
 Start the anaconda navigator and launch the jupyter notebook interpreter by clicking on the Launch button of the icon shown on the right. The jupyter interpreter will start a virtual web server on your computer (localhost) that will be visualized through your web browser.
 
@@ -142,11 +138,11 @@ To run a block of code, click on the box and the surrounding perimeter of that b
 
 The menu at the top of the page contains the main command and will indicate the type of cell where the mouse is focusing. Clicking on run is another way to run the current cell, equivalent to Shift-Enter. It is also possible to run all the cells in the notebook by selecting 'Run All' under the 'Cell' heading. Notice how all the shortcuts are in these menus. Moreover, the 'Help' tab contains a 'User Interface Tour', as well as reference to the Python langage and its most popular packages such as pandas and NumPy, for example.
 
-_Additional considerations on Windows_
+## Additional considerations on Windows
 
 On recent versions of Windows, Controlled folder acces might deny access to Python, resulting in the autosave feature of jupyter to be broken. If you receive a message in jupyter stating that the file you are using does not exist, the Controlled folder access feature of Windows is probably enabled. To fix, open Windows Security -\> virus and threat protection -\> virus and threat settings -\> Controlled folder access -\> Manage Controlled folder access -\> Allow an app through Controlled folder access -\> (click yes) -\> Add an allowed app -\> Recently blocked app -\> +add python.exe. Alternatively, you can disable Control access folder for the duration of the training.
 
-_**A Note on File Paths in Python**_
+## A Note on File Paths in Python
 
 File paths have a different dialect depending on the operating system that you are using. In Linux and OS-X, all file paths start from the root directory which is referred to by "/". Each level of subdirectory from there is separated by an additional "/". For example:
 
