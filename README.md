@@ -36,7 +36,8 @@ _Note: If you already have a preferred Python setup that allows you to run a jup
 
 ## Installation
 
-Installation of Anaconda is relatively straightforward, just go to this [link](http://anaconda.com/), and click the download icon which should automatically detect your operating system. Else, you could look for the _Anaconda installers_ box at the bottom of the web page. At the time of this writing, the latest version is Anaconda 23.7.4 or 2023.07.2 using Python 3.11.
+Installation of Anaconda is relatively straightforward, just go to this [link](http://anaconda.com/), and click the download icon
+![Download](images/Picture1.png) which should automatically detect your operating system. Else, you could look for the _Anaconda installers_ box at the bottom of the web page. At the time of this writing, the latest version is Anaconda 23.7.4 or 2023.07.2 using Python 3.11.
 
 ### Upgrade
 
