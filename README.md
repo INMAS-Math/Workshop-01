@@ -5,7 +5,7 @@ Here is an overview of the notebooks that are part of the Workshop.
 
 | *Notebook* | 	*Content* | *Anticipated time* |
 | ---------| --------------------------| --------| 
-|01  |  Python primer-01.git | XX |
+|01  |  Python primer | XX |
 |02  |  Additional python practice | XX |
 |03  |  Modules and matplotlib | XX |
 |04  |  Input/Output | XX |
