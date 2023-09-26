@@ -1,27 +1,27 @@
 # Internship Network in Mathematical Sciences - Workshop #1
-This Workshop is a basic introduction to Python which will lay the foundations required for the rest of the INMAS program. Python has been selected as a language of choice due to its ubiquitous use in the industry and the reduced time, compared to other popular languages, for developing a prototype application. This is mainly thanks to the braod availibility of modules that were developed for the language, allowing to interface with many other programming languages (e.g., C), applications (e.g., excel), and interfaces (e.g., the web or the operating system).
+This Workshop is a basic introduction to Python which will lay the foundations required for the rest of the INMAS program. Python has been selected as a language of choice due to its ubiquitous use in the industry and the reduced time, compared to other popular languages, for developing a prototype application. This is mainly thanks to the broad availibility of modules that were developed for the language, allowing to interface with many other programming languages (e.g., C), applications (e.g., excel), and interfaces (e.g., the web or the operating system).
 
-Here is an overview of the modules that are part of the Workshop.
+Here is an overview of the notebooks that are part of the Workshop.
 
-| *Module* | 	*Content* |
-| ---------| --------------------------| 
-|1  |  Python primer-01.git | 
-|2  |  Additional python practice |
-|3  |  Modules and matplotlib |
-|4  |  Input/Output |
-|5a |  Rock/Paper/Scissors |
-|5b |  Hangman |
-|6  |  Functions |
-|7  |  Elements of Software Engineering |
-|8  |  Debugging fundamentals |
-|9  |  numpy basics |
-|10 |  numpy intermediate |
-|11 |  Visualizing with matplotlib |
-|12 |  SciPy basics |
-|13 |  SIR modeling |
-|14 |  Introduction to pandas |
-|15 |  Visualizing using Seaborn |
-|16 |  Redfin mini-project |
+| *Notebook* | 	*Content* | *Anticipated time* |
+| ---------| --------------------------| --------| 
+|01  |  Python primer-01.git | XX |
+|02  |  Additional python practice | XX |
+|03  |  Modules and matplotlib | XX |
+|04  |  Input/Output | XX |
+|05a |  Rock/Paper/Scissors | XX |
+|05b |  Hangman | XX |
+|06  |  Functions | XX |
+|07  |  Elements of Software Engineering | XX |
+|08  |  Debugging fundamentals | XX |
+|09  |  numpy basics | XX |
+|10 |  numpy intermediate | XX |
+|11 |  Visualizing with matplotlib | XX |
+|12 |  SciPy basics | XX |
+|13 |  SIR modeling | XX |
+|14 |  Introduction to pandas | XX |
+|15 |  Visualizing using Seaborn | XX |
+|16 |  Redfin mini-project | XX |
 
 # Anaconda Starter
 The material of this workshop is based on using jupyter notebooks. We will first describe how to get a proper installation of Anaconda.
@@ -37,7 +37,10 @@ _Note: If you already have a preferred Python setup that allows you to run a jup
 ## Installation
 
 Installation of Anaconda is relatively straightforward, just go to this [link](http://anaconda.com/), and click the download icon
-![Download](images/Picture1.png) which should automatically detect your operating system. Else, you could look for the _Anaconda installers_ box at the bottom of the web page. At the time of this writing, the latest version is Anaconda 23.7.4 or 2023.07.2 using Python 3.11.
+![Download](images/Picture1.png)
+which should automatically detect your operating system. Else, you could look for the _Anaconda installers_ box at the bottom of the web page. At the time of this writing, the latest version is Anaconda 23.7.4 or 2023.07.2 using Python 3.11.
+
+![Anaconda Installers](images/Picture2.png)
 
 ### Upgrade
 
@@ -49,6 +52,8 @@ Checking the version of Anaconda and Python is relatively simple. Open a termina
 
 You should then get something like this:
 
+![Conda info](images/Picture3.png)
+
 Make sure that the versions of both Python and Anaconda match the version described above and in this window.
 
 ## Opening the Navigator
@@ -57,7 +62,9 @@ Following a successful installation, you should be able to open the Anaconda nav
 
 _Windows Machine_
 
-Click on the Windows Icon and search through the applications installed on your computer and open via the Anaconda Icon, which should look like the icon on the right.
+Click on the Windows Icon and search through the applications installed on your computer and open via the Anaconda Icon, which should look like this icon.
+
+![Anaconda](images/Picture4.png)
 
 _MacOS_
 
@@ -69,7 +76,7 @@ Open a terminal window and type anaconda-navigator.
 
 Upon successfully opening the navigator you should see something resembling the following window.
 
-![](RackMultipart20230926-1-5ygp1t_html_3b0560435302202c.png)
+![Navigator](images/Picture5.png)
 
 The navigator can be used to start many applications. Those of interest to us are mainly the jupyter notebook and a terminal shell. The advantage of starting a command shell from the navigator is that all the environment variables are already pre-configured for Python. On Windows, we recommend using the PowerShell Prompt over CMD, as the former provides command line editing and history and is therefore more user friendly.
 
@@ -129,11 +136,13 @@ Click on the code icon to get a zip file containing all the material. Alternativ
 
 Start the anaconda navigator and launch the jupyter notebook interpreter by clicking on the Launch button of the icon shown on the right. The jupyter interpreter will start a virtual web server on your computer (localhost) that will be visualized through your web browser.
 
+![Notebook](images/Picture6.png)
+
 The opening page will show the files on your computer. By clicking on the directories, navigate to where you saved the notebooks from Workshop1 of INMAS. As before, '..' stands for returning to the parent directory. Note that unlike other navigators (e.g., explorer) a single click is necessary to open a directory.
 
 Jupyter notebooks end with the '.ipynb' file extension. Clicking on the desired file will open the jupyter notebook interpreter of that file in a different tab of your browser. These notebooks contain intructions as well as code that can be edited and run. Each box, called cells, starting with the 'In []' keywork is a block of code input waiting to be run. Other boxes, called markdown cells, are meant to give instructions. The number between brackets keeps track of the instruction numbers, showing the sequence of the instructions that were run, possibly out of order. A cell generating output will have an 'Out[]' with an associated sequence number in the brackets. An entire notebook can be reset by restarting the kernel and clearing all output. This is done through selecting 'Restart and Clear Output' under the 'Kernel' tab.
 
-![](RackMultipart20230926-1-5ygp1t_html_78960a40e7ffe5e1.png)
+![Header](images/Picture7.png)
 
 To run a block of code, click on the box and the surrounding perimeter of that box will turn green, indicating that it is ready to run with hitting Crtl-Enter. Alternatively, Shift-Enter will achieve the same result, except the mouse focus will jump to the next cell. Double-clicking on a markdown cell will switch the cell to the editing mode and show the raw (markdown) code for the text. Running the cell (Ctrl-Enter) will (re-)generate the nice text. Code cells, on the other end, can be edited directly once the mouse focus is on that cell (i.e., there is no need to double-click to edit those cells).
 
@@ -147,7 +156,7 @@ On recent versions of Windows, Controlled folder acces might deny access to Pyth
 
 File paths have a different dialect depending on the operating system that you are using. In Linux and OS-X, all file paths start from the root directory which is referred to by "/". Each level of subdirectory from there is separated by an additional "/". For example:
 
-![](RackMultipart20230926-1-5ygp1t_html_c3aca41f5da724e1.gif)
+![Mac](images/Picture8.png)
 
 Reference to a directory can start with "/", in which case it is called an absolute reference. In other instances, it can start from where you are located (your current working directory) and start without a "/". This is the case for the parent directory "../" for example.
 
@@ -156,10 +165,9 @@ In Windows, an absolute reference starts with the disk letter followed by a colo
 You can lookup a file's full path and file name through its "properties":
 
 - On Windows, right click on the file name in the file explorer and click "Properties" (alternatively, Alt-Enter after highlighting the filename). For a file called "myfile.py" in directory "C:\Users\jane\Documents\scripts", the full path in Python would need to be "C:\Users\jane\Documents\scripts\myfile.py".
-- On Mac, right-click on the file and select "Get Info". Alternatively, "Command + i"
-
-summons up the Get Info panel. Using the same example, the full path in Python would need to be entered as "/Users/jane/Documents/scripts/myfile.py".
+- On Mac, right-click on the file and select "Get Info". Alternatively, "Command + i" 
+summons up the "Get Info" panel. Using the same example, the full path in Python would need to be entered as "/Users/jane/Documents/scripts/myfile.py".
 
 Python, however, allows the usage of '/' on Windows, for portability reasons. Therefore, the path in the following example is perfectly valid. We recommend that you use forward slashes "/" over backslashes "\" when using Python on Windows. Another reason to use a forward slash is that the backslash character is an escape character when used inside a string (a dialect inhirited from the C programming language).
 
-![](RackMultipart20230926-1-5ygp1t_html_67c679d4db402373.gif)
+![Windows](images/Picture9.png)
