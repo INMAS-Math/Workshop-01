@@ -22,4 +22,3 @@ Module	Content
 15    Visualizing using Seaborn
 16    Redfin mini-project
 
-
