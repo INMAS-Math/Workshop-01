@@ -6,7 +6,7 @@ Here is an overview of the notebooks that are part of the Workshop.
 | *Notebook* | 	*Content* | *Anticipated time* |
 | ---------| --------------------------| --------| 
 |01  |  Python primer | XX |
-|02  |  Additional python practice | XX |
+|02  |  Additional Python practice | XX |
 |03  |  Modules and matplotlib | XX |
 |04  |  Input/Output | XX |
 |05a |  Rock/Paper/Scissors | XX |
