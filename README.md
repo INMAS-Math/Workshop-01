@@ -68,7 +68,7 @@ Click on the Windows Icon and search through the applications installed on your 
 
 _MacOS_
 
-Open your Finder and go to the "Applications" Folder, look for "Anaconda-Navigator", with the same icon you see above.
+Open your Finder and go to the *Applications* Folder, look for *Anaconda-Navigator*, with the same icon you see above.
 
 _Linux_
 
