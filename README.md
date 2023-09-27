@@ -5,7 +5,7 @@ This Workshop is a basic introduction to Python which will lay the foundations r
 
 Here is an overview of the notebooks that are part of the Workshop.
 
-| *Notebook* | 	*Content* | *Anticipated time* |
+| *Notebook* | 	*Content* | *Estimated time* |
 | ---------| --------------------------| --------| 
 |01  |  Python primer | XX |
 |02  |  Additional Python practice | XX |
