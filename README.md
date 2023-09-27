@@ -3,9 +3,9 @@
 # The Internship Network in Mathematical Sciences - Workshop #1
 This Workshop is a basic introduction to Python which will lay the foundations required for the rest of the INMAS program. Python has been selected as a language of choice due to its ubiquitous use in the industry and the reduced time, compared to other popular languages, for developing a prototype application. This is mainly thanks to the broad availibility of modules that were developed for the language, allowing to interface with many other programming languages (e.g., C), applications (e.g., Excel), and interfaces (e.g., the web or the operating system).
 
-Here is an overview of the notebooks that are part of the Workshop.
+Here is an overview of the notebooks that are part of the Workshop. The two columns on the right gives an estimated time required to complete each notebook. We anticipate that you will have sufficient time to complete the core parts of the training during the Workshop. The optional parts are there to help you improve your skills and should not be completed during the Workshop unless you already have a good programming basis in Python. For beginners, we suggest that you revisit these notebooks at a later time. This wil help you assimilate the material and ensure a continuity in practicing a new programming language.
 
-| *Notebook* | 	*Content* | *Estimated time* | *Optional part* |
+| *Notebook* | 	*Content* | *Estimated core time* | *Optional time* |
 | ---------| --------------------------| --------| ------ |
 |01  |  Python primer | XX | XX |
 |02  |  Additional Python practice | XX | XX |
