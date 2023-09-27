@@ -23,7 +23,7 @@ Here is an overview of the notebooks that are part of the Workshop. The two colu
 |13 |  Project 1 - SIR modeling | XX | XX |
 |14 |  Introduction to pandas | XX | XX |
 |15 |  Visualizing using Seaborn | XX | XX |
-|16 |  Redfin mini-project | XX | XX |
+|16 |  Project 2 - Redfin | XX | XX |
 
 # Anaconda Starter
 The material of this workshop is based on using jupyter notebooks. We will first describe how to get a proper installation of Anaconda.
