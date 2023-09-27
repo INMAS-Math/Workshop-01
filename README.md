@@ -60,19 +60,19 @@ Make sure that the versions of both Python and Anaconda match the version descri
 
 Following a successful installation, you should be able to open the Anaconda navigator.
 
-_Windows Machine_
+### Windows Machine
 
 Click on the Windows Icon and search through the applications installed on your computer and open via the Anaconda Icon, which should look like this icon.
 
 ![Anaconda](images/Picture4.png)
 
-_MacOS_
+### MacOS
 
 Open your Finder and go to the *Applications* Folder, look for *Anaconda-Navigator*, with the same icon you see above.
 
-_Linux_
+### Linux
 
-Open a terminal window and type anaconda-navigator.
+Open a terminal window and type *anaconda-navigator*. Those of you eager to learn Linux in the comfort of your Windows laptop should consider running the *Windows Subsystem for Linux* (WSL) available for free. This will allow you to run a full version of Linux (e.g., Ubuntu) within your Windows operating system. Really cool. More info [here](https://learn.microsoft.com/en-us/windows/wsl/install).
 
 Upon successfully opening the navigator you should see something resembling the following window.
 
