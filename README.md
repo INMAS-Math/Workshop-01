@@ -5,25 +5,25 @@ This Workshop is a basic introduction to Python which will lay the foundations r
 
 Here is an overview of the notebooks that are part of the Workshop.
 
-| *Notebook* | 	*Content* | *Estimated time* |
+| *Notebook* | 	*Content* | *Estimated time* | *Optional part* |
 | ---------| --------------------------| --------| 
-|01  |  Python primer | XX |
-|02  |  Additional Python practice | XX |
-|03  |  Modules and matplotlib | XX |
-|04  |  Input/Output | XX |
-|05a |  Rock/Paper/Scissors | XX |
-|05b |  Hangman | XX |
-|06  |  Functions | XX |
-|07  |  Elements of Software Engineering | XX |
-|08  |  Debugging fundamentals | XX |
-|09  |  numpy basics | XX |
-|10 |  numpy intermediate | XX |
-|11 |  Visualizing with matplotlib | XX |
-|12 |  SciPy basics | XX |
-|13 |  SIR modeling | XX |
-|14 |  Introduction to pandas | XX |
-|15 |  Visualizing using Seaborn | XX |
-|16 |  Redfin mini-project | XX |
+|01  |  Python primer | XX | XX |
+|02  |  Additional Python practice | XX | XX |
+|03  |  Modules and matplotlib | XX | XX |
+|04  |  Input/Output | XX | XX |
+|05a |  Rock/Paper/Scissors | XX | XX |
+|05b |  Hangman | XX | XX |
+|06  |  Functions | XX | XX |
+|07  |  Elements of Software Engineering | XX | XX |
+|08  |  Debugging fundamentals | XX | XX |
+|09  |  numpy basics | XX | XX |
+|10 |  numpy intermediate | XX | XX |
+|11 |  Visualizing with matplotlib | XX | XX |
+|12 |  SciPy basics | XX | XX |
+|13 |  SIR modeling | XX | XX |
+|14 |  Introduction to pandas | XX | XX |
+|15 |  Visualizing using Seaborn | XX | XX |
+|16 |  Redfin mini-project | XX | XX |
 
 # Anaconda Starter
 The material of this workshop is based on using jupyter notebooks. We will first describe how to get a proper installation of Anaconda.
