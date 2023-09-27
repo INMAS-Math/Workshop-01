@@ -86,8 +86,8 @@ The navigator can be used to start many applications. Those of interest to us ar
 
 It is sometimes easier to use command line interface over a graphical user interface. Starting a terminal can be done through the Anaconda Navigator, through starting a terminal on Mac or Linux. Navigating files and directories consists of using the following five basic commands:
 
-- `ls` list file in current directory
-- `cd` change directory
+- `ls` or `dir` list files in current directory
+- `cd` change current directory
 - `pwd` print working directory
 - `mkdir` make a new directory
 - `rmdir` remove a directory
