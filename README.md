@@ -76,7 +76,7 @@ Open your Finder and go to the *Applications* Folder, look for *Anaconda-Navigat
 
 Open a terminal window and type *anaconda-navigator*. Those of you eager to learn Linux in the comfort of your Windows laptop should consider running the *Windows Subsystem for Linux* (WSL) available for free. This will allow you to run a full version of Linux (e.g., Ubuntu) within your Windows operating system. Really cool. More info [here](https://learn.microsoft.com/en-us/windows/wsl/install).
 
-Upon successfully opening the navigator you should see something resembling the following window.
+Upon successfully opening the navigator you should see something resembling the following window. Be patient, it sometimes takes a while to load.
 
 ![Navigator](images/Picture5.png)
 
@@ -86,8 +86,8 @@ The navigator can be used to start many applications. Those of interest to us ar
 
 It is sometimes easier to use command line interface over a graphical user interface. Starting a terminal can be done through the Anaconda Navigator, through starting a terminal on Mac or Linux. Navigating files and directories consists of using the following five basic commands:
 
-- `ls` list file in current directory
-- `cd` change directory
+- `ls` or `dir` list files in current directory
+- `cd` change current directory
 - `pwd` print working directory
 - `mkdir` make a new directory
 - `rmdir` remove a directory
