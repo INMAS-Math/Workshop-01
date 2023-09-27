@@ -1,5 +1,5 @@
 # Internship Network in Mathematical Sciences - Workshop #1
-This Workshop is a basic introduction to Python which will lay the foundations required for the rest of the INMAS program. Python has been selected as a language of choice due to its ubiquitous use in the industry and the reduced time, compared to other popular languages, for developing a prototype application. This is mainly thanks to the broad availibility of modules that were developed for the language, allowing to interface with many other programming languages (e.g., C), applications (e.g., excel), and interfaces (e.g., the web or the operating system).
+This Workshop is a basic introduction to Python which will lay the foundations required for the rest of the INMAS program. Python has been selected as a language of choice due to its ubiquitous use in the industry and the reduced time, compared to other popular languages, for developing a prototype application. This is mainly thanks to the broad availibility of modules that were developed for the language, allowing to interface with many other programming languages (e.g., C), applications (e.g., Excel), and interfaces (e.g., the web or the operating system).
 
 Here is an overview of the notebooks that are part of the Workshop.
 
@@ -128,46 +128,47 @@ The notebooks for the Workshop are available from github. You can download the m
 
 [https://github.com/INMAS-Math/Workshop-01.git](https://github.com/INMAS-Math/Workshop-01.git)
 
-Click on the code icon to get a zip file containing all the material. Alternatively, you can use a command line and git to clone the code as follows:
+Click on the code icon to get a zip file containing all the material. Alternatively, you can use a command line and `git` to clone the code as follows:
 
 `git clone https://github.com/INMAS-Math/Workshop-01.git`
 
 ## Opening and running a jupyter notebook
 
-Start the anaconda navigator and launch the jupyter notebook interpreter by clicking on the Launch button of the icon shown on the right. The jupyter interpreter will start a virtual web server on your computer (localhost) that will be visualized through your web browser.
+Start the anaconda navigator and launch the jupyter notebook interpreter by clicking on the Launch button of the icon shown here.
 
 ![Notebook](images/Picture6.png)
 
-The opening page will show the files on your computer. By clicking on the directories, navigate to where you saved the notebooks from Workshop1 of INMAS. As before, '..' stands for returning to the parent directory. Note that unlike other navigators (e.g., explorer) a single click is necessary to open a directory.
+The jupyter interpreter will start a virtual web server on your computer (localhost) that will be visualized through your web browser.
 
-Jupyter notebooks end with the '.ipynb' file extension. Clicking on the desired file will open the jupyter notebook interpreter of that file in a different tab of your browser. These notebooks contain intructions as well as code that can be edited and run. Each box, called cells, starting with the 'In []' keywork is a block of code input waiting to be run. Other boxes, called markdown cells, are meant to give instructions. The number between brackets keeps track of the instruction numbers, showing the sequence of the instructions that were run, possibly out of order. A cell generating output will have an 'Out[]' with an associated sequence number in the brackets. An entire notebook can be reset by restarting the kernel and clearing all output. This is done through selecting 'Restart and Clear Output' under the 'Kernel' tab.
+The opening page will show the files on your computer. By clicking on the directories, navigate to where you saved the notebooks from Workshop1 of INMAS. As before, '..' stands for returning to the parent directory. Note that unlike other navigators (e.g., Explorer) a single click is necessary to open a directory.
+
+Jupyter notebooks end with the *.ipynb* file extension. Clicking on the desired file will open the jupyter notebook interpreter of that file in a different tab of your browser. These notebooks contain intructions as well as code that can be edited and run. Each box starting with the *In []* keyword are called *code cell*; they are a block of Python code input waiting to be run. Other boxes, called *markdown cells*, are meant to give instructions. The number between brackets keeps track of the instruction numbers, showing the sequence of the instructions that were run, possibly out of order. A cell generating output will have an *Out[ ]* with an associated sequence number in the brackets. An entire notebook can be reset by restarting the kernel and clearing all output. This is done through selecting *Restart and Clear Output* under the *Kernel* tab.
 
 ![Header](images/Picture7.png)
 
-To run a block of code, click on the box and the surrounding perimeter of that box will turn green, indicating that it is ready to run with hitting Crtl-Enter. Alternatively, Shift-Enter will achieve the same result, except the mouse focus will jump to the next cell. Double-clicking on a markdown cell will switch the cell to the editing mode and show the raw (markdown) code for the text. Running the cell (Ctrl-Enter) will (re-)generate the nice text. Code cells, on the other end, can be edited directly once the mouse focus is on that cell (i.e., there is no need to double-click to edit those cells).
+To run a block of code, click on the box and the surrounding perimeter of that box will turn green, indicating that it is ready to run with hitting *Crtl-Enter*. Alternatively, *Shift-Enter* will achieve the same result, except the mouse focus will jump to the next cell. Double-clicking on a markdown cell will switch the cell to the editing mode and show the raw (markdown) code for the text. Running the cell (*Ctrl-Enter*) will (re-)generate the nice text. Code cells, on the other end, can be edited directly once the mouse focus is on that cell (i.e., there is no need to double-click to edit those cells).
 
-The menu at the top of the page contains the main command and will indicate the type of cell where the mouse is focusing. Clicking on run is another way to run the current cell, equivalent to Shift-Enter. It is also possible to run all the cells in the notebook by selecting 'Run All' under the 'Cell' heading. Notice how all the shortcuts are in these menus. Moreover, the 'Help' tab contains a 'User Interface Tour', as well as reference to the Python langage and its most popular packages such as pandas and NumPy, for example.
+The menu at the top of the page contains the main command and will indicate the type of cell where the mouse is focusing. Clicking on run is another way to run the current cell, equivalent to Shift-Enter. It is also possible to run all the cells in the notebook by selecting *Run All* under the *Cell* heading. Notice how all the shortcuts are in these menus. Moreover, the *Help* tab contains a *User Interface Tour*, as well as reference to the Python langage and its most popular packages such as pandas and NumPy, for example.
 
 ## Additional considerations on Windows
 
-On recent versions of Windows, Controlled folder acces might deny access to Python, resulting in the autosave feature of jupyter to be broken. If you receive a message in jupyter stating that the file you are using does not exist, the Controlled folder access feature of Windows is probably enabled. To fix, open Windows Security -\> virus and threat protection -\> virus and threat settings -\> Controlled folder access -\> Manage Controlled folder access -\> Allow an app through Controlled folder access -\> (click yes) -\> Add an allowed app -\> Recently blocked app -\> +add python.exe. Alternatively, you can disable Control access folder for the duration of the training.
+On recent versions of Windows (e.g., version 11), *Controlled folder acces* might deny access to Python, resulting in the autosave feature of jupyter to be broken. If you receive a message in jupyter stating that the file you are using does not exist, the *Controlled folder access* feature of Windows is probably enabled. To fix, open Windows Security -\> virus and threat protection -\> virus and threat settings -\> Controlled folder access -\> Manage Controlled folder access -\> Allow an app through Controlled folder access -\> (click yes) -\> Add an allowed app -\> Recently blocked app -\> +add python.exe. Alternatively, you can disable *Control access folder* for the duration of the training.
 
 ## A Note on File Paths in Python
 
-File paths have a different dialect depending on the operating system that you are using. In Linux and OS-X, all file paths start from the root directory which is referred to by "/". Each level of subdirectory from there is separated by an additional "/". For example:
+File paths have a different dialect depending on the operating system that you are using. In Linux and Mac/OS-X, all file paths start from the root directory which is referred to by "/". Each level of subdirectory from there is separated by an additional "/". For example:
 
 ![Mac](images/Picture8.png)
 
-Reference to a directory can start with "/", in which case it is called an absolute reference. In other instances, it can start from where you are located (your current working directory) and start without a "/". This is the case for the parent directory "../" for example.
+Reference to a directory starting with "/" is called an absolute reference. In other instances, it can start from where you are located (your current working directory), being without a leading "/". This is the case for the parent directory "../" for example. These are relative paths.
 
 In Windows, an absolute reference starts with the disk letter followed by a colon (e.g., C:, D:, etc). For example, "C:\Users\jane\Documents\somefile.txt".
 
 You can lookup a file's full path and file name through its "properties":
 
-- On Windows, right click on the file name in the file explorer and click "Properties" (alternatively, Alt-Enter after highlighting the filename). For a file called "myfile.py" in directory "C:\Users\jane\Documents\scripts", the full path in Python would need to be "C:\Users\jane\Documents\scripts\myfile.py".
-- On Mac, right-click on the file and select "Get Info". Alternatively, "Command + i" 
-summons up the "Get Info" panel. Using the same example, the full path in Python would need to be entered as "/Users/jane/Documents/scripts/myfile.py".
+- On Windows, right click on the file name in the file explorer and click *Properties* (alternatively, *Alt-Enter* after highlighting the filename). For a file called "myfile.py" in directory "C:\Users\jane\Documents\scripts", the full path in Python would need to be "C:\Users\jane\Documents\scripts\myfile.py".
+- On Mac, right-click on the file and select *Get Info*. Alternatively, *Command + i* brings up the *Get Info* panel. Using the same example, the full path in Python would need to be entered as "/Users/jane/Documents/scripts/myfile.py".
 
-Python, however, allows the usage of '/' on Windows, for portability reasons. Therefore, the path in the following example is perfectly valid. We recommend that you use forward slashes "/" over backslashes "\" when using Python on Windows. Another reason to use a forward slash is that the backslash character is an escape character when used inside a string (a dialect inhirited from the C programming language).
+Python, however, allows the usage of '/' on Windows, for portability reasons. Therefore, the path in the following example is perfectly valid. We recommend that you use forward slashes '/' over backslashes '\' when using Python on Windows. Another reason to use a forward slash is that the backslash character is an escape character when used inside a string (a dialect inherited from the C programming language).
 
 ![Windows](images/Picture9.png)
