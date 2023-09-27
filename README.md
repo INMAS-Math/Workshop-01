@@ -84,7 +84,7 @@ The navigator can be used to start many applications. Those of interest to us ar
 
 ## Navigating using a command shell
 
-It is sometimes easier to use command line interface over a graphical user interface. Starting a terminal can be done through the anaconda navigator, through starting a terminal on Mac or Linux. Navigating files and directories consists of using the following five basic commands:
+It is sometimes easier to use command line interface over a graphical user interface. Starting a terminal can be done through the Anaconda Navigator, through starting a terminal on Mac or Linux. Navigating files and directories consists of using the following five basic commands:
 
 - `ls` list file in current directory
 - `cd` change directory
@@ -108,7 +108,7 @@ Help on any of these commands can be obtained by typing, for the command `ls`, f
 
 where man stands for manual.
 
-Files can be copied (`cp`), moved (`mv`), or deleted (`rm`). Use `man` to get more information on these commands.
+Files can be copied (`cp`), moved (`mv`), or deleted (`rm`). Use `man` to get more information on these commands. Be cautious with the `rm` command as it does not ask for a confirmation of the deletion by default.
 
 Using a command line interface is often the preferred method for navigating directories, or projects with multiple files, especially when one is using a version control system such as `git`.
 
