@@ -1,6 +1,6 @@
 <img src="images/Picture0.png" width=250x\>
 
-# Internship Network in Mathematical Sciences - Workshop #1
+# The Internship Network in Mathematical Sciences - Workshop #1
 This Workshop is a basic introduction to Python which will lay the foundations required for the rest of the INMAS program. Python has been selected as a language of choice due to its ubiquitous use in the industry and the reduced time, compared to other popular languages, for developing a prototype application. This is mainly thanks to the broad availibility of modules that were developed for the language, allowing to interface with many other programming languages (e.g., C), applications (e.g., Excel), and interfaces (e.g., the web or the operating system).
 
 Here is an overview of the notebooks that are part of the Workshop.
