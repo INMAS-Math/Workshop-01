@@ -132,7 +132,9 @@ The notebooks for the Workshop are available from github (right where you now ar
 
 Click on the code icon to get a zip file containing all the material. Alternatively, you can use a command line and `git` to clone the code as follows:
 
-`git clone https://github.com/INMAS-Math/Workshop-01.git`
+`git download https://github.com/INMAS-Math/Workshop-01.git`
+
+Note that if you were a contributor to the code, you would use `clone` instead of download. This would transfer all the metadata to your computer and allow you to push changes that you make to the code. 
 
 If not already present on your computer, the `git` source code management tool (SCM) can be downloaded and installed from [git-scm.com](https://git-scm.com).
 
