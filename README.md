@@ -134,6 +134,8 @@ Click on the code icon to get a zip file containing all the material. Alternativ
 
 `git clone https://github.com/INMAS-Math/Workshop-01.git`
 
+The `git` source code management tool (SCM) can be obtained at [git-scm.com](https://git-scm.com).
+
 ## Opening and running a jupyter notebook
 
 Start the anaconda navigator and launch the jupyter notebook interpreter by clicking on the Launch button of the icon shown here.
