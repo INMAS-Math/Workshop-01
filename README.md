@@ -1,3 +1,5 @@
+<img src="images/Picture0.png" width=250x\>
+
 # Internship Network in Mathematical Sciences - Workshop #1
 This Workshop is a basic introduction to Python which will lay the foundations required for the rest of the INMAS program. Python has been selected as a language of choice due to its ubiquitous use in the industry and the reduced time, compared to other popular languages, for developing a prototype application. This is mainly thanks to the broad availibility of modules that were developed for the language, allowing to interface with many other programming languages (e.g., C), applications (e.g., Excel), and interfaces (e.g., the web or the operating system).
 
@@ -28,7 +30,7 @@ The material of this workshop is based on using jupyter notebooks. We will first
 
 ## Introduction
 
-[Anaconda](../anaconda.com) is an open-source distribution of Python (and R, another programming language) and a suite of useful packages. It integrates a number of features that are used in the INMAS educational content, including an interactive user interface (jupyter) for running notebooks and installing Python packages.
+[Anaconda](http://anaconda.com) is an open-source distribution of Python (and R, another programming language) and a suite of useful packages. It integrates a number of features that are used in the INMAS educational content, including an interactive user interface (jupyter) for running notebooks and installing Python packages.
 
 In this brief tutorial we will show how to install Anaconda, how to verify a proper installation, and how to run the first jupyter notebook required for Workshop 1.
 
