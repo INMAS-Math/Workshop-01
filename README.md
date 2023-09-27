@@ -20,7 +20,7 @@ Here is an overview of the notebooks that are part of the Workshop. The two colu
 |10 |  numpy intermediate | XX | XX |
 |11 |  Visualizing with matplotlib | XX | XX |
 |12 |  SciPy basics | XX | XX |
-|13 |  SIR modeling | XX | XX |
+|13 |  Project 1 - SIR modeling | XX | XX |
 |14 |  Introduction to pandas | XX | XX |
 |15 |  Visualizing using Seaborn | XX | XX |
 |16 |  Redfin mini-project | XX | XX |
