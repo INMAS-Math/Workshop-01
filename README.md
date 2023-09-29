@@ -62,9 +62,9 @@ Make sure that the versions of both Python and *conda* match the version describ
 
 Following a successful installation, you should be able to open the Anaconda navigator.
 
-### Windows Machine
+### Windows Computer
 
-Click on the Windows Icon and search through the applications installed on your computer and open via the Anaconda Icon, which should look like this icon.
+Click on the Windows Icon and search through the applications installed on your computer and open via the Anaconda Icon, which should look like this icon. Alternatively, you can type *anaconda-navigator* in the search tool in the task bar.
 
 ![Anaconda](images/Picture4.png)
 
