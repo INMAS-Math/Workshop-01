@@ -56,7 +56,7 @@ You should then get something like this:
 
 ![Conda info](images/Picture3.png)
 
-Make sure that the versions of both Python and Anaconda match the version described above and in this window.
+Make sure that the versions of both Python and *conda* match the version described above and in this window.
 
 ## Opening the Navigator
 
@@ -84,7 +84,7 @@ The navigator can be used to start many applications. Those of interest to us ar
 
 ## Navigating using a command shell
 
-It is sometimes easier to use command line interface over a graphical user interface. Starting a terminal can be done through the Anaconda Navigator, through starting a terminal on Mac or Linux. Navigating files and directories consists of using the following five basic commands:
+It is sometimes easier to use command line interface over a graphical user interface. Starting a terminal can be done through the Anaconda Navigator, or through starting a terminal on Mac or Linux. Navigating files and directories consists of using the following five basic commands:
 
 - `ls` or `dir` list files in current directory
 - `cd` change current directory
