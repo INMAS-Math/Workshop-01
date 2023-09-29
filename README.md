@@ -7,7 +7,7 @@ Here is an overview of the notebooks that are part of the Workshop. The two colu
 
 | *Notebook* | 	*Content* | *Estimated core time* | *Optional time* |
 | ---------| --------------------------| --------| ------ |
-|01  |  Python primer | XX | XX |
+|01  |  Python primer | XX | N/A |
 |02  |  Additional Python practice | XX | XX |
 |03  |  Modules and matplotlib | XX | XX |
 |04  |  Input/Output | XX | XX |
@@ -148,7 +148,7 @@ The jupyter interpreter will start a virtual web server on your computer (localh
 
 The opening page will show the files on your computer. By clicking on the directories, navigate to where you saved the notebooks from Workshop-01 of INMAS. As before, '..' stands for returning to the parent directory. Note that unlike other navigators (e.g., Explorer) a single click is necessary to open a directory.
 
-Jupyter notebooks end with the *.ipynb* file extension. Clicking on the desired file will open the jupyter notebook interpreter of that file in a different tab of your browser. These notebooks contain intructions as well as code that can be edited and run. Boxes starting with the *In []* keyword are called *code cells*; they are a block of Python code input waiting to be run. Other boxes, called *markdown cells*, are meant to give instructions. The number between brackets keeps track of the instruction numbers, showing the sequence of the instructions that were run, possibly out of order. A cell generating output will have an *Out[ ]* with an associated sequence number in the brackets. An entire notebook can be reset by restarting the kernel and clearing all output and the state of all variables. This is done through selecting *Restart and Clear Output* under the *Kernel* tab.
+Jupyter notebooks end with the *.ipynb* file extension. Clicking on the desired file will open the jupyter notebook interpreter of that file in a different tab of your browser. These notebooks contain intructions as well as code that can be edited and run. Boxes starting with the *In [  ]* keyword are called *code cells*; they are a block of Python code input waiting to be run. Other boxes, called *markdown cells*, are meant to give instructions. The number between brackets keeps track of the instruction numbers, showing the sequence of the instructions that were run, possibly out of order. A cell generating output will have an *Out[  ]* with an associated sequence number in the brackets. An entire notebook can be reset by restarting the kernel and clearing all output and the state of all variables. This is done through selecting *Restart and Clear Output* under the *Kernel* tab.
 
 ![Header](images/Picture7.png)
 
