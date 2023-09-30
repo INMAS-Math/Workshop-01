@@ -64,7 +64,7 @@ Following a successful installation, you should be able to open the Anaconda nav
 
 ### Windows Computers
 
-Click on the Windows Icon and search through the applications installed on your computer and open via the Anaconda Icon, which should look like this icon. Alternatively, you can type *anaconda-navigator* in the search tool located in the task bar.
+Click on the Windows Icon and search through the applications installed on your computer and open via the Anaconda Icon, which should look like this icon. Alternatively, you can type *anaconda-navigator* in the search tool located in the task bar (notice that, by default, a search is not case sensitive on Windows).
 
 ![Anaconda](images/Picture4.png)
 
