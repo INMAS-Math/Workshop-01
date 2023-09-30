@@ -20,10 +20,10 @@ Here is an overview of the notebooks that are part of the Workshop. The two colu
 |10 |  numpy intermediate | XX | XX |
 |11 |  Visualizing with matplotlib | XX | XX |
 |12 |  SciPy basics | XX | XX |
-|13 |  Project 1 - SIR modeling | XX | XX |
+|13 |  Project 1 - SIR modeling | XX | N/A |
 |14 |  Introduction to pandas | XX | XX |
 |15 |  Visualizing using Seaborn | XX | XX |
-|16 |  Project 2 - Redfin | XX | XX |
+|16 |  Project 2 - Redfin | XX | N/A |
 
 # Anaconda Starter
 The material of this workshop is based on using jupyter notebooks. We will first describe how to get a proper installation of Anaconda.
