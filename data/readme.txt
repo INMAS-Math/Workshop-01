@@ -1,4 +1,5 @@
-Fles in this folder are used in the following notebooks:
+
+Fles in this folder are used by the following notebooks:
 - Notebook 04 - Input/Output
-- Notebook 09 and 10 - Numpy
+- Notebooks 09 and 10 - Numpy
 
