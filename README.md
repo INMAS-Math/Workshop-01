@@ -17,8 +17,8 @@ Here is an overview of the notebooks that are part of the Workshop. The two colu
 |07  |  Elements of Software Engineering | XX | XX |
 |08  |  Debugging fundamentals | 15mins | N/A |
 |09  |  numpy basics | 25mins | N/A |
-|10 |  numpy intermediate | XX | XX |
-|11 |  Visualizing with matplotlib | XX | XX |
+|10 |  numpy intermediate | 30 | 20 |
+|11 |  Visualizing with matplotlib | 30 | N/A |
 |12 |  SciPy basics | XX | XX |
 |13 |  Project 1 - SIR modeling | XX | N/A |
 |14 |  Introduction to pandas | XX | XX |
