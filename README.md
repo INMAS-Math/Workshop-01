@@ -15,7 +15,7 @@ Here is an overview of the notebooks that are part of the Workshop. The two colu
 |05b |  Hangman | XX | XX |
 |06  |  Functions | XX | XX |
 |07  |  Elements of Software Engineering | XX | XX |
-|08  |  Debugging fundamentals | XX | XX |
+|08  |  Debugging fundamentals | 15mins | N/A |
 |09  |  numpy basics | XX | XX |
 |10 |  numpy intermediate | XX | XX |
 |11 |  Visualizing with matplotlib | XX | XX |
