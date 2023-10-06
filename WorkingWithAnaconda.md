@@ -4,7 +4,7 @@ For the INMAS workshops we will be using Python as our primary coding language. 
 
 To get started with Python, we recommend that you install [Anaconda](http://anaconda.com), an open-source package manager and Python distribution that includes a suite of useful packages (in addition to basic Python) pre-installed, as well as package management tools. This is an easy way to manage and obtain additional Python packages that you will need in addition to basic Python. For example, it will include matplotlib which will be useful for making plots, and IPython, which will allow you to open, edit, and run the Jupyter notebooks (.ipynb files) which we will be using during the workshop. 
 
-Note: If you already have a preferred Python setup that allows you to run a jupyter notebook, please check that you have an environment compatable with the notebooks we've developed by scrolling to the **Environment** section below. We generally recommend that you use the latest version of Anaconda as many packages might have evolved since the version you have and may not be compatible.
+Note: If you already have a preferred Python setup that allows you to run a jupyter notebook, please check that you have an environment compatible with the notebooks we've developed by scrolling to the **Environment** section below. We generally recommend that you use the latest version of Anaconda as many packages might have evolved since the version you have and may not be compatible.
 
 ## Installation
 
