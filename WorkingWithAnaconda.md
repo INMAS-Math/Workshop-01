@@ -50,7 +50,7 @@ First start a terminal shell from the Anaconda Navigator or otherwise. Then type
 
 `conda info`
 
-and make sure that the version is 23.7.4 with Python being 3.11.4.final. The command
+and make sure that the version is up to date. As of October, 2023, the most up to date version we will be using is Anaconda version 23.7.4, Python version 3.11.4.final. The command
 
 `conda list`
 
@@ -78,7 +78,7 @@ You should then get something like this:
 
 ![Conda info](images/Picture3.png)
 
-Make sure that the versions of both Python and *conda* match the version described above and in this window.
+Ideally your versions of both Python and *conda* match the version described above and in this window.
 
 ---
 
