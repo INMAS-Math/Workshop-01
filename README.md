@@ -22,8 +22,8 @@ Here is an overview of the notebooks that are part of Workshop #1. The two colum
 |11 |  Visualizing with matplotlib | 30 m| N/A |
 |12 |  SciPy basics | XX | XX |
 |13 |  Project 1 - SIR modeling | XX | N/A |
-|14 |  Introduction to pandas | XX | XX |
-|15 |  Visualizing using Seaborn | XX | XX |
+|14 |  Introduction to pandas | 30 m | 15 m |
+|15 |  Visualizing using Seaborn | 30 m | N/A |
 |16 |  Project 2 - Redfin | XX | N/A |
 
 # Anaconda Starter
