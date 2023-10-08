@@ -8,7 +8,7 @@ Here is an overview of the notebooks that are part of Workshop #1. The two colum
 
 | *Notebook* | 	*Content* | *Estimated core time* | *Optional time* |
 | ---------| --------------------------| --------| ------ |
-|01  |  Python primer | XX | N/A |
+|01  |  Python primer | 30 m| N/A |
 |02  |  Additional Python practice | XX | XX |
 |03  |  Modules and matplotlib | XX | XX |
 |04  |  Input/Output | XX | XX |
@@ -16,10 +16,10 @@ Here is an overview of the notebooks that are part of Workshop #1. The two colum
 |05b |  Hangman | XX | XX |
 |06  |  Functions | XX | XX |
 |07  |  Elements of Software Engineering | XX | XX |
-|08  |  Debugging fundamentals | 15mins | N/A |
-|09  |  numpy basics | 25mins | N/A |
-|10 |  numpy intermediate | 30 | 20 |
-|11 |  Visualizing with matplotlib | 30 | N/A |
+|08  |  Debugging fundamentals | 15 m| N/A |
+|09  |  numpy basics | 25 m| N/A |
+|10 |  numpy intermediate | 30 m| 20 m|
+|11 |  Visualizing with matplotlib | 30 m| N/A |
 |12 |  SciPy basics | XX | XX |
 |13 |  Project 1 - SIR modeling | XX | N/A |
 |14 |  Introduction to pandas | XX | XX |
