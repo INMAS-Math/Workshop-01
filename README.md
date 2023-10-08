@@ -31,7 +31,7 @@ The material of this workshop is based on using Jupyter notebooks. We will first
 
 ## Introduction
 
-[Anaconda](http://anaconda.com) is an open-source distribution of Python (and R, another programming language) bundled with a suite of useful packages, a package manager, and other utility tools. The included Jupyter notebook reader provides an interactive environment similar to Mathematica or MATLAB. This learning environment is an excellent tool to assimilate the INMAS educational content interactively, and at one's own pace.
+[Anaconda](http://anaconda.com) is an open-source distribution of Python (and R, another programming language) bundled with a suite of useful packages, a package manager, and other utility tools. The included Jupyter Notebook reader provides an interactive environment similar to Mathematica or MATLAB. This learning environment is an excellent tool to assimilate the INMAS educational content interactively, and at one's own pace.
 
 In this brief tutorial we will show how to install Anaconda, how to verify a proper installation, and how to run the first Jupyter notebook required for Workshop #1.
 
@@ -93,7 +93,7 @@ Upon successfully opening the navigator you should see something resembling the 
 
 ![Navigator](images/Picture5.png)
 
-The navigator can be used to start many applications. Those of interest to us are mainly the JupyterLab notebook reader and a terminal shell. The advantage of starting a command shell from the navigator is that all the environment variables are already pre-configured for Python. On Windows, we recommend using the PowerShell Prompt over CMD, as the former provides command line editing and history and is therefore more user friendly.
+The navigator can be used to start many applications. Those of interest to us are mainly the Jupyter Notebook reader and a terminal shell. The advantage of starting a command shell from the navigator is that all the environment variables are already pre-configured for Python. On Windows, we recommend using the PowerShell Prompt over CMD, as the former provides command line editing and history and is therefore more user friendly.
 
 ## Downloading the notebooks
 
@@ -111,24 +111,24 @@ If not already present on your computer, the `git` source code management tool (
 
 ## Opening and running a Jupyter notebook
 
-Start the anaconda navigator and launch the JupyterLab notebook interpreter by clicking on the Launch button of the icon shown here.
+Start the anaconda navigator and launch the Jupyter Notebook interpreter by clicking on the Launch button of the icon shown here.
 ![Notebook](images/Picture6.png)
 
-The JupyterLab interpreter will start a virtual web server on your computer (localhost) that will be visualized through your default web browser.
+The Jupyter Notebook interpreter will start a virtual web server on your computer (localhost) that will be visualized through your default web browser.
 
 The opening page will show the files on your computer. By clicking on the directories, navigate to where you saved the notebooks from Workshop-01 of INMAS. As before, '..' stands for returning to the parent directory. Note that unlike other navigators (e.g., Explorer) a single click is necessary to open a directory.
 
-Jupyter notebooks end with the *.ipynb* file extension. Clicking on the desired file will open the Jupyter notebook interpreter of that file in a different tab of your browser. These notebooks contain intructions as well as code that can be edited and run. Boxes starting with the *In [  ]* keyword are called *code cells*; they are a block of Python code input waiting to be run. Other boxes, called *markdown cells*, are meant to give instructions. The number between brackets keeps track of the instruction numbers, showing the sequence of the instructions that were run, possibly out of order. A cell generating output will have an *Out[  ]* with an associated sequence number in the brackets. An entire notebook can be reset by restarting the kernel and clearing all output and the state of all variables. This is done through selecting *Restart and Clear Output* under the *Kernel* tab.
+Jupyter notebooks end with the *.ipynb* file extension. Clicking on the desired file will open the Jupyter Notebook interpreter of that file in a different tab of your browser. These notebooks contain intructions as well as code that can be edited and run. Boxes starting with the *In [  ]* keyword are called *code cells*; they are a block of Python code input waiting to be run. Other boxes, called *markdown cells*, are meant to give instructions. The number between brackets keeps track of the instruction numbers, showing the sequence of the instructions that were run, possibly out of order. A cell generating output will have an *Out[  ]* with an associated sequence number in the brackets. An entire notebook can be reset by restarting the kernel and clearing all output and the state of all variables. This is done through selecting *Restart and Clear Output* under the *Kernel* tab.
 
 ![Header](images/Picture7.png)
 
 To run a block of code, click on the box and the surrounding perimeter of that box will turn green, indicating that it is ready to run with hitting *Crtl-Enter*. Alternatively, *Shift-Enter* will achieve the same result, except that the mouse focus will jump to the next cell. Double-clicking on a markdown cell will switch the cell to the editing mode and show the raw (markdown) code for the text. Running the cell (*Ctrl-Enter*) will (re-)generate the nice text. Code cells, on the other end, can be edited directly once the mouse focus is on that cell (i.e., there is no need to double-click to edit those cells).
 
-The menu at the top of the page contains the main commands and will indicate the type of cell where the mouse is focusing. Clicking on run is another way to run the current cell, equivalent to *Shift-Enter*. It is also possible to run all the cells in the notebook by selecting *Run All* under the *Cell* heading. Notice all the shortcuts indicated in these menus, providing a keyboard alternative. Moreover, the *Help* tab contains a *User Interface Tour*, as well as reference to the Python langage and its most popular packages such as pandas and NumPy, for example. Use these references if needed. You should minimally read the *User Interface Tour* if you are new to JupyterLab.
+The menu at the top of the page contains the main commands and will indicate the type of cell where the mouse is focusing. Clicking on run is another way to run the current cell, equivalent to *Shift-Enter*. It is also possible to run all the cells in the notebook by selecting *Run All* under the *Cell* heading. Notice all the shortcuts indicated in these menus, providing a keyboard alternative. Moreover, the *Help* tab contains a *User Interface Tour*, as well as reference to the Python langage and its most popular packages such as pandas and NumPy, for example. Use these references if needed. You should minimally read the *User Interface Tour* if you are new to Jupyter Notebook.
 
 ## Additional considerations on Windows
 
-On recent versions of Windows (e.g., version 11), *Controlled folder acces* might deny access to Python, resulting in the autosave feature of JupyterLab to be broken. If you receive a message in Jupyter stating that the file you are using does not exist, the *Controlled folder access* feature of Windows is probably enabled and is prohibiting *python.exe* to write to the directory. To fix, open *Windows Security* -\> *virus and threat protection* -\> *virus and threat settings* -\> *Controlled folder access* -\> *Manage Controlled folder access* -\> *Allow an app through Controlled folder access* -\> (click yes) -\> *Add an allowed app* -\> *Recently blocked app* -\> *+add python.exe*. Alternatively, you can disable *Control access folder* for the duration of the training.
+On recent versions of Windows (e.g., version 11), *Controlled folder acces* might deny access to Python, resulting in the autosave feature of Jupyter Notebook reader to be broken. If you receive a message in Jupyter Notebook stating that the file you are using does not exist, the *Controlled folder access* feature of Windows is probably enabled and is prohibiting *python.exe* to write to the directory. To fix, open *Windows Security* -\> *virus and threat protection* -\> *virus and threat settings* -\> *Controlled folder access* -\> *Manage Controlled folder access* -\> *Allow an app through Controlled folder access* -\> (click yes) -\> *Add an allowed app* -\> *Recently blocked app* -\> *+add python.exe*. Alternatively, you can disable *Control access folder* for the duration of the training.
 
 ## A Note on File Paths in Python
 
