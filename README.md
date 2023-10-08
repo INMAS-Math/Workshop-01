@@ -31,7 +31,7 @@ The material of this workshop is based on using jupyter notebooks. We will first
 
 ## Introduction
 
-[Anaconda](http://anaconda.com) is an open-source distribution of Python (and R, another programming language) bundled with a suite of useful packages, a package manager, and other utility tools. The included jupyter notebook reader provides an interactive environment similar to Mathematica or MATLAB. This environment provides a learning tool that we will use for the INMAS educational content.
+[Anaconda](http://anaconda.com) is an open-source distribution of Python (and R, another programming language) bundled with a suite of useful packages, a package manager, and other utility tools. The included jupyter notebook reader provides an interactive environment similar to Mathematica or MATLAB. This learning environment is an excellent tool to assimilate the INMAS educational content interactively, and at one's own pace.
 
 In this brief tutorial we will show how to install Anaconda, how to verify a proper installation, and how to run the first jupyter notebook required for Workshop #1.
 
