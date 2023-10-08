@@ -26,7 +26,7 @@ Here is an overview of the notebooks that are part of the Workshop. The two colu
 |16 |  Project 2 - Redfin | XX | N/A |
 
 # Anaconda Starter
-The material of this workshop is based on using jupyter notebooks. We will first describe how to get a proper installation of Anaconda, an open-source package manager and Python distribution that includes a suite of useful packages (in addition to basic Python) pre-installed, as well as package management tools. This package manager provides an easy way to manage and obtain additional Python packages that you will need in addition to basic Python. Don't worry: most if not all of the Python packages needed for the workshop are included in the default distribution.
+The material of this workshop is based on using jupyter notebooks. We will first describe how to get a proper installation of Anaconda, an open-source package manager and Python distribution that includes a suite of useful packages (in addition to basic Python) pre-installed, as well as package management tools. This package manager provides an easy way to manage and obtain additional Python packages that you will need in addition to basic Python. Don't worry however: most if not all Python packages needed for the first workshop are included in the default distribution.
 
 ## Introduction
 
@@ -34,7 +34,7 @@ The material of this workshop is based on using jupyter notebooks. We will first
 
 In this brief tutorial we will show how to install Anaconda, how to verify a proper installation, and how to run the first jupyter notebook required for Workshop 1.
 
-Note: If you already have a preferred Python setup that allows you to run a jupyter notebook, we recommend that you use the latest version of Anaconda as many packages might have evolved since the version you have and not be compatible with the notebooks we developed.
+Note: If you already have a preferred Python setup that allows you to run a jupyter notebook, we recommend that you use the latest version of Anaconda as many packages might have evolved since the version you have and may not be compatible with the notebooks we developed.
 
 ## Installation
 
