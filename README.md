@@ -26,13 +26,13 @@ Here is an overview of the notebooks that are part of Workshop #1. The two colum
 |16 |  Project 2 - Redfin | XX | N/A |
 
 # Anaconda Starter
-The material of this workshop is based on using jupyter notebooks. We will first describe how to get a proper installation of Anaconda, an open-source package manager and Python distribution that includes a suite of useful packages (in addition to basic Python) pre-installed, as well as package management tools. This package manager provides an easy way to manage and obtain additional Python packages that you will need in addition to basic Python. Don't worry however: most if not all Python packages needed for the first workshop are included in the default distribution.
+The material of this workshop is based on using jupyter notebooks. We will first describe how to get a proper installation of Anaconda, an open-source package manager and Python distribution that includes a suite of useful packages (in addition to basic Python) pre-installed, as well as package management tools. This package manager provides an easy way to install additional Python packages that you might need in addition to the most popular packages. Don't worry however: most if not all Python packages needed for the first workshop are included in the default distribution.
 
 ## Introduction
 
-[Anaconda](http://anaconda.com) is an open-source distribution of Python (and R, another programming language) and a suite of useful packages. It integrates a number of features that are used in the INMAS educational content, including an interactive user interface (jupyter) for running notebooks and installing Python packages.
+[Anaconda](http://anaconda.com) is an open-source distribution of Python (and R, another programming language) bundled with a suite of useful packages, a package manager, and other utility tools. The included jupyter notebook reader provides an interactive environment similar to Mathematica or MATLAB. This environment provides a learning tool that we will use for the INMAS educational content.
 
-In this brief tutorial we will show how to install Anaconda, how to verify a proper installation, and how to run the first jupyter notebook required for Workshop 1.
+In this brief tutorial we will show how to install Anaconda, how to verify a proper installation, and how to run the first jupyter notebook required for Workshop #1.
 
 Note: If you already have a preferred Python setup that allows you to run a jupyter notebook, we recommend that you use the latest version of Anaconda as many packages might have evolved since the version you have and may not be compatible with the notebooks we developed.
 
