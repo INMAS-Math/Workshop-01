@@ -20,11 +20,11 @@ Here is an overview of the notebooks that are part of Workshop #1. The two colum
 |09  |  numpy basics | 25 m| N/A |
 |10 |  numpy intermediate | 30 m| 20 m|
 |11 |  Visualizing with matplotlib | 30 m| N/A |
-|12 |  SciPy basics | XX | XX |
-|13 |  Project 1 - SIR modeling | XX | N/A |
+|12 |  SciPy basics | 10 m | N/A |
+|13 |  Project 1 - SIR modeling | 30 | N/A |
 |14 |  Introduction to pandas | 30 m | 15 m |
 |15 |  Visualizing using Seaborn | 30 m | N/A |
-|16 |  Project 2 - Redfin | XX | N/A |
+|16 |  Project 2 - Redfin | 2 h | N/A |
 
 # Anaconda Starter
 The material of this workshop is based on using Jupyter notebooks. We will first describe how to get a proper installation of Anaconda, an open-source package manager and Python distribution that includes a suite of useful packages (in addition to basic Python) pre-installed, as well as package management tools. This package manager provides an easy way to install additional Python packages that you might need in addition to the most popular packages. Don't worry however: most if not all Python packages needed for the first workshop are included in the default distribution.
