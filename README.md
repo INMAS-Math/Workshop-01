@@ -53,7 +53,7 @@ There will be a few installation steps to click through - you can generally use 
 
 ### Upgrade
 
-If you already have a version of Anaconda installed, it is recommended that you upgrade it to the latest version. The simplest way to update is to uninstall your current version of Anaconda and start with a fresh install as described above, as updating using conda will not update your version of Python but rather will require the creation of a whole new environment based on the newer Python version. On Windows, uninstall the Anaconda application. On Linux, delete the entire *anaconda3* directory located in you rhome directory before proceeding with a fresh install.
+If you already have a version of Anaconda installed, it is recommended that you upgrade it to the latest version. The simplest way to update is to uninstall your current version of Anaconda and start with a fresh install as described above, as updating using conda will not update your version of Python but rather will require the creation of a whole new environment based on the newer Python version. On Windows, uninstall the Anaconda application. On Linux, delete the entire *anaconda3* directory located in your home directory before proceeding with a fresh install.
 
 ## Testing your Anaconda installation
 
