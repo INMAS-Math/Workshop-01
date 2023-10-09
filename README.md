@@ -9,15 +9,15 @@ Here is an overview of the notebooks that are part of Workshop #1. The two colum
 | *Notebook* | 	*Content* | *Estimated core time* | *Optional time* |
 | ---------| --------------------------| --------| ------ |
 |01  |  Python primer | 30 m| N/A |
-|02  |  Additional Python practice | XX | XX |
-|03  |  Modules and matplotlib | XX | XX |
-|04  |  Input/Output | XX | XX |
-|05a |  Rock/Paper/Scissors | XX | XX |
-|05b |  Hangman | XX | XX |
+|02  |  Additional Python practice | 35 m| 40 m|
+|03  |  Modules and matplotlib | 20 m | 15 m |
+|04  |  Input/Output | 10 m | 5 m |
+|05a |  Rock/Paper/Scissors | 25 m | 5 m |
+|05b |  Hangman | N/A | 1 h |
 |06  |  Functions | XX | XX |
 |07  |  Elements of Software Engineering | XX | XX |
-|08  |  Debugging fundamentals | 15 m| N/A |
-|09  |  numpy basics | 25 m| N/A |
+|08  |  Debugging fundamentals | 20 m| N/A |
+|09  |  numpy basics | 25 m| 15 m |
 |10 |  numpy intermediate | 30 m| 20 m|
 |11 |  Visualizing with matplotlib | 30 m| N/A |
 |12 |  SciPy basics | 10 m | N/A |
@@ -47,17 +47,18 @@ which should automatically detect your operating system. Else, you could look fo
 
 There will be a few installation steps to click through - you can generally use the defaults. For detailed instructions, here are the particular OS installation guides:
 
-- [Windows](https://docs.anaconda.com/free/anaconda/install/windows/)
-- [macOS](https://docs.anaconda.com/free/anaconda/install/mac-os/)
+- [Windows computers](https://docs.anaconda.com/free/anaconda/install/windows/)
+- [MacOS](https://docs.anaconda.com/free/anaconda/install/mac-os/)
 - [Linux](https://docs.anaconda.com/free/anaconda/install/linux/)
 
 ### Upgrade
 
-If you already have a version of Anaconda installed, it is recommended that you upgrade it to the latest version. The simplest way to update is to uninstall your current version of Anaconda and start with a fresh install as described above, as updating using conda will not update your version of Python but rather will require the creation of a whole new environment based on the newer Python version. On Windows, uninstall the Anaconda application. On Linux, delete the entire *anaconda3* directory located in you rhome directory before proceeding with a fresh install.
+If you already have a version of Anaconda installed, it is recommended that you upgrade it to the latest version. The simplest way to update is to uninstall your current version of Anaconda and start with a fresh install as described above, as updating using conda will not update your version of Python but rather will require the creation of a whole new environment based on the newer Python version. On Windows, uninstall the Anaconda application. On MacOS and Linux you can use anaconda-clean, or (not recommended) delete the entire anaconda3 directory located in you home directory before proceeding with a fresh install. If you would rather prefer to keep your existing Python installation, you can certainly do that, with the caveat that you might experience compatibility issues.
+
 
 ## Testing your Anaconda installation
 
-Checking the version of Anaconda and Python is relatively simple. First, open a terminal (shell) window (anaconda Prompt on Windows, Terminal on Mac and Linux – more details below) and just type:
+Checking the version of Anaconda and Python is relatively simple. First, open a terminal (shell) window (anaconda Prompt on Windows, Terminal on MacOS and Linux – more details below) and just type:
 
 `conda info`
 
@@ -75,9 +76,9 @@ will list all the packages installed on your computer and their version numbers.
 
 Following a successful installation, you should be able to open the Anaconda navigator.
 
-### Windows Computers
+### Windows computers
 
-Click on the Windows Icon and search through the applications installed on your computer and open via the Anaconda Icon, which should look like this icon. Alternatively, you can type *anaconda-navigator* in the search tool located in the task bar (notice that, by default, a search is not case sensitive on Windows).
+Click on the Windows Icon and search through the applications installed on your computer and open via the Anaconda Icon, which should look like this icon. Alternatively, you can type *anaconda-navigator* in the search tool located in the task bar (notice that, by default, searching in Windows is not case sensitive).
 
 ![Anaconda](images/Picture4.png)
 
@@ -126,13 +127,13 @@ To run a block of code, click on the box and the surrounding perimeter of that b
 
 The menu at the top of the page contains the main commands and will indicate the type of cell where the mouse is focusing. Clicking on run is another way to run the current cell, equivalent to *Shift-Enter*. It is also possible to run all the cells in the notebook by selecting *Run All* under the *Cell* heading. Notice all the shortcuts indicated in these menus, providing a keyboard alternative. Moreover, the *Help* tab contains a *User Interface Tour*, as well as reference to the Python langage and its most popular packages such as pandas and NumPy, for example. Use these references if needed. You should minimally read the *User Interface Tour* if you are new to Jupyter Notebook.
 
-## Additional considerations on Windows
+## Additional considerations on Windows Computers
 
 On recent versions of Windows (e.g., version 11), *Controlled folder acces* might deny access to Python, resulting in the autosave feature of Jupyter Notebook reader to be broken. If you receive a message in Jupyter Notebook stating that the file you are using does not exist, the *Controlled folder access* feature of Windows is probably enabled and is prohibiting *python.exe* to write to the directory. To fix, open *Windows Security* -\> *virus and threat protection* -\> *virus and threat settings* -\> *Controlled folder access* -\> *Manage Controlled folder access* -\> *Allow an app through Controlled folder access* -\> (click yes) -\> *Add an allowed app* -\> *Recently blocked app* -\> *+add python.exe*. Alternatively, you can disable *Control access folder* for the duration of the training.
 
 ## A Note on File Paths in Python
 
-File paths have a different dialect depending on the operating system that you are using. In Linux and Mac/OS-X, all file paths start from the root directory which is referred to by "/". Each level of subdirectory from there is separated by an additional "/". For example:
+File paths have a different dialect depending on the operating system that you are using. In Linux and MacOS, all file paths start from the root directory which is referred to by "/". Each level of subdirectory from there is separated by an additional "/". For example:
 
 ![Mac](images/Picture8.png)
 
@@ -142,8 +143,8 @@ In Windows, an absolute reference starts with the disk letter followed by a colo
 
 You can lookup a file's full path and file name through its "properties":
 
-- On Windows, right click on the file name in the file explorer and click *Properties* (alternatively, *Alt-Enter* after highlighting the filename). For a file called "myfile.py" in directory "C:\Users\jane\Documents\scripts", the full path in Python would need to be "C:\Users\jane\Documents\scripts\myfile.py".
-- On Mac, right-click on the file and select *Get Info*. Alternatively, *Command + i* brings up the *Get Info* panel. Using the same example, the full path in Python would need to be entered as "/Users/jane/Documents/scripts/myfile.py".
+- On Windows computers, right click on the file name in the file explorer and click *Properties* (alternatively, *Alt-Enter* after highlighting the filename). For a file called "myfile.py" in directory "C:\Users\jane\Documents\scripts", the full path in Python would need to be "C:\Users\jane\Documents\scripts\myfile.py".
+- On MacOS, right-click on the file and select *Get Info*. Alternatively, *Command + i* brings up the *Get Info* panel. Using the same example, the full path in Python would need to be entered as "/Users/jane/Documents/scripts/myfile.py".
 
 Python, however, allows the usage of '/' on Windows, for portability reasons. Therefore, the path in the following example is perfectly valid. We recommend that you use forward slashes '/' over backslashes '\' when using Python on Windows. Another reason to use a forward slash is that the backslash character is an escape character when used inside a string (a dialect inherited from the C programming language).
 
