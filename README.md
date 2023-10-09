@@ -47,7 +47,7 @@ which should automatically detect your operating system. Else, you could look fo
 
 There will be a few installation steps to click through - you can generally use the defaults. For detailed instructions, here are the particular OS installation guides:
 
-- [Windows Computers](https://docs.anaconda.com/free/anaconda/install/windows/)
+- [Windows computers](https://docs.anaconda.com/free/anaconda/install/windows/)
 - [MacOS](https://docs.anaconda.com/free/anaconda/install/mac-os/)
 - [Linux](https://docs.anaconda.com/free/anaconda/install/linux/)
 
@@ -76,9 +76,9 @@ will list all the packages installed on your computer and their version numbers.
 
 Following a successful installation, you should be able to open the Anaconda navigator.
 
-### Windows Computers
+### Windows computers
 
-Click on the Windows Icon and search through the applications installed on your computer and open via the Anaconda Icon, which should look like this icon. Alternatively, you can type *anaconda-navigator* in the search tool located in the task bar (notice that, by default, a search is not case sensitive on Windows).
+Click on the Windows Icon and search through the applications installed on your computer and open via the Anaconda Icon, which should look like this icon. Alternatively, you can type *anaconda-navigator* in the search tool located in the task bar (notice that, by default, searching in Windows is not case sensitive).
 
 ![Anaconda](images/Picture4.png)
 
@@ -133,7 +133,7 @@ On recent versions of Windows (e.g., version 11), *Controlled folder acces* migh
 
 ## A Note on File Paths in Python
 
-File paths have a different dialect depending on the operating system that you are using. In Linux and Mac/OS-X, all file paths start from the root directory which is referred to by "/". Each level of subdirectory from there is separated by an additional "/". For example:
+File paths have a different dialect depending on the operating system that you are using. In Linux and MacOS, all file paths start from the root directory which is referred to by "/". Each level of subdirectory from there is separated by an additional "/". For example:
 
 ![Mac](images/Picture8.png)
 
@@ -143,7 +143,7 @@ In Windows, an absolute reference starts with the disk letter followed by a colo
 
 You can lookup a file's full path and file name through its "properties":
 
-- On Windows, right click on the file name in the file explorer and click *Properties* (alternatively, *Alt-Enter* after highlighting the filename). For a file called "myfile.py" in directory "C:\Users\jane\Documents\scripts", the full path in Python would need to be "C:\Users\jane\Documents\scripts\myfile.py".
+- On Windows computers, right click on the file name in the file explorer and click *Properties* (alternatively, *Alt-Enter* after highlighting the filename). For a file called "myfile.py" in directory "C:\Users\jane\Documents\scripts", the full path in Python would need to be "C:\Users\jane\Documents\scripts\myfile.py".
 - On MacOS, right-click on the file and select *Get Info*. Alternatively, *Command + i* brings up the *Get Info* panel. Using the same example, the full path in Python would need to be entered as "/Users/jane/Documents/scripts/myfile.py".
 
 Python, however, allows the usage of '/' on Windows, for portability reasons. Therefore, the path in the following example is perfectly valid. We recommend that you use forward slashes '/' over backslashes '\' when using Python on Windows. Another reason to use a forward slash is that the backslash character is an escape character when used inside a string (a dialect inherited from the C programming language).
