@@ -9,7 +9,7 @@ Here is an overview of the notebooks that are part of Workshop #1. The two colum
 | *Notebook* | 	*Content* | *Estimated core time* | *Optional time* |
 | ---------| --------------------------| --------| ------ |
 |01  |  Python primer | 30 m| N/A |
-|02  |  Additional Python practice | XX | XX |
+|02  |  Additional Python practice | 35 m| 20 m|
 |03  |  Modules and matplotlib | XX | XX |
 |04  |  Input/Output | XX | XX |
 |05a |  Rock/Paper/Scissors | XX | XX |
