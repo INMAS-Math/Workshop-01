@@ -47,8 +47,8 @@ which should automatically detect your operating system. Else, you could look fo
 
 There will be a few installation steps to click through - you can generally use the defaults. For detailed instructions, here are the particular OS installation guides:
 
-- [Windows](https://docs.anaconda.com/free/anaconda/install/windows/)
-- [macOS](https://docs.anaconda.com/free/anaconda/install/mac-os/)
+- [Windows Computers](https://docs.anaconda.com/free/anaconda/install/windows/)
+- [MacOS](https://docs.anaconda.com/free/anaconda/install/mac-os/)
 - [Linux](https://docs.anaconda.com/free/anaconda/install/linux/)
 
 ### Upgrade
@@ -57,7 +57,7 @@ If you already have a version of Anaconda installed, it is recommended that you 
 
 ## Testing your Anaconda installation
 
-Checking the version of Anaconda and Python is relatively simple. First, open a terminal (shell) window (anaconda Prompt on Windows, Terminal on Mac and Linux – more details below) and just type:
+Checking the version of Anaconda and Python is relatively simple. First, open a terminal (shell) window (anaconda Prompt on Windows, Terminal on MacOS and Linux – more details below) and just type:
 
 `conda info`
 
@@ -126,7 +126,7 @@ To run a block of code, click on the box and the surrounding perimeter of that b
 
 The menu at the top of the page contains the main commands and will indicate the type of cell where the mouse is focusing. Clicking on run is another way to run the current cell, equivalent to *Shift-Enter*. It is also possible to run all the cells in the notebook by selecting *Run All* under the *Cell* heading. Notice all the shortcuts indicated in these menus, providing a keyboard alternative. Moreover, the *Help* tab contains a *User Interface Tour*, as well as reference to the Python langage and its most popular packages such as pandas and NumPy, for example. Use these references if needed. You should minimally read the *User Interface Tour* if you are new to Jupyter Notebook.
 
-## Additional considerations on Windows
+## Additional considerations on Windows Computers
 
 On recent versions of Windows (e.g., version 11), *Controlled folder acces* might deny access to Python, resulting in the autosave feature of Jupyter Notebook reader to be broken. If you receive a message in Jupyter Notebook stating that the file you are using does not exist, the *Controlled folder access* feature of Windows is probably enabled and is prohibiting *python.exe* to write to the directory. To fix, open *Windows Security* -\> *virus and threat protection* -\> *virus and threat settings* -\> *Controlled folder access* -\> *Manage Controlled folder access* -\> *Allow an app through Controlled folder access* -\> (click yes) -\> *Add an allowed app* -\> *Recently blocked app* -\> *+add python.exe*. Alternatively, you can disable *Control access folder* for the duration of the training.
 
@@ -143,7 +143,7 @@ In Windows, an absolute reference starts with the disk letter followed by a colo
 You can lookup a file's full path and file name through its "properties":
 
 - On Windows, right click on the file name in the file explorer and click *Properties* (alternatively, *Alt-Enter* after highlighting the filename). For a file called "myfile.py" in directory "C:\Users\jane\Documents\scripts", the full path in Python would need to be "C:\Users\jane\Documents\scripts\myfile.py".
-- On Mac, right-click on the file and select *Get Info*. Alternatively, *Command + i* brings up the *Get Info* panel. Using the same example, the full path in Python would need to be entered as "/Users/jane/Documents/scripts/myfile.py".
+- On MacOS, right-click on the file and select *Get Info*. Alternatively, *Command + i* brings up the *Get Info* panel. Using the same example, the full path in Python would need to be entered as "/Users/jane/Documents/scripts/myfile.py".
 
 Python, however, allows the usage of '/' on Windows, for portability reasons. Therefore, the path in the following example is perfectly valid. We recommend that you use forward slashes '/' over backslashes '\' when using Python on Windows. Another reason to use a forward slash is that the backslash character is an escape character when used inside a string (a dialect inherited from the C programming language).
 
