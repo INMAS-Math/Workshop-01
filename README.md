@@ -11,7 +11,7 @@ Here is an overview of the notebooks that are part of Workshop #1. The two colum
 |01  |  Python primer | 30 m| N/A |
 |02  |  Additional Python practice | 35 m| 40 m|
 |03  |  Modules and matplotlib | 20 m | 15 m |
-|04  |  Input/Output | 10m | 5m |
+|04  |  Input/Output | 10 m | 5 m |
 |05a |  Rock/Paper/Scissors | 25 m | 5 m |
 |05b |  Hangman | N/A | 1 h |
 |06  |  Functions | XX | XX |
