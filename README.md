@@ -21,7 +21,7 @@ Here is an overview of the notebooks that are part of Workshop #1. The two colum
 |10 |  numpy intermediate | 30 m| 20 m|
 |11 |  Visualizing with matplotlib | 30 m| N/A |
 |12 |  SciPy basics | 10 m | N/A |
-|13 |  Project 1 - SIR modeling | 30 m | N/A |
+|13 |  Project 1 - SIR modeling | 20 m | 10 m |
 |14 |  Introduction to pandas | 30 m | 15 m |
 |15 |  Visualizing using Seaborn | 30 m | N/A |
 |16 |  Project 2 - Redfin | 2 h | N/A |
