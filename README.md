@@ -15,7 +15,7 @@ Here is an overview of the notebooks that are part of Workshop #1. The two colum
 |05a |  Rock/Paper/Scissors | 25 m | 5 m |
 |05b |  Hangman | N/A | 1 h |
 |06  |  Functions | XX | XX |
-|07  |  Elements of Software Engineering | XX | XX |
+|07  |  Elements of Software Engineering | 30 m | 25 m |
 |08  |  Debugging fundamentals | 20 m| N/A |
 |09  |  numpy basics | 25 m| 15 m |
 |10 |  numpy intermediate | 30 m| 20 m|
