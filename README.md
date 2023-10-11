@@ -113,6 +113,7 @@ If not already present on your computer, the `git` source code management tool (
 ## Opening and running a Jupyter notebook
 
 Start the anaconda navigator and launch the Jupyter Notebook interpreter by clicking on the Launch button of the icon shown here.
+
 ![Notebook](images/Picture6.png)
 
 The Jupyter Notebook interpreter will start a virtual web server on your computer (localhost) that will be visualized through your default web browser.
