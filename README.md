@@ -180,3 +180,6 @@ where man stands for manual.
 Files can be copied (`cp`), moved (`mv`), or deleted (`rm`). Use `man` to get more information on these commands. Be cautious with the `rm` command as it does not ask for a confirmation of the deletion by default.
 
 Using a command line interface is often the preferred method for navigating directories, or projects with multiple files, especially when one is using a version control system such as `git`.
+
+## Credits
+Notebooks and curriculum originally developed by Emily Shinkle, Shinhae Park, Adriana Morales Miranda, and Luke Leisman, with additional original contributions from Martin Lacasse. Many INMAS TAs have since contributed significant updates and improvements. Sources are credited in individual notebooks.
