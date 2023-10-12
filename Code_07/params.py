@@ -5,14 +5,14 @@ Inspired from code by Hans Peter Langtangen
 '''
 __version__ = 0.1
 __author__ = "Martin-D. Lacasse - JHU Oct. 2022"
-__all__ = ['readPars', 'printPars']
+__all__ = ['readParameters', 'printParameters']
 
 import sys
 
-def readPars(file):
+def readParameters(filename):
     '''Read run-time parameters from a text file and return dictionary with string values'''
     try:
-        file = open('parameters.txt', 'r')
+        file = open(filename, 'r')
     except:
         print("Unable to open file " + file, file=sys.stderr)
         sys.exit(1)
@@ -26,7 +26,7 @@ def readPars(file):
 
     return myDico
 
-def printPars(dico, file=sys.stdout):
+def printParameters(dico, file=sys.stdout):
     '''Print dictionary to file'''
     for key in dico:
         print(key + ' = ' + dico[key], file=file)

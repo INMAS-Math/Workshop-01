@@ -5,7 +5,7 @@ Martin-D. Lacasse, JHU 2022
 '''
 
 import sys
-import params
+import params 
 
 # Print Usage
 def printHelp(name):
@@ -15,12 +15,12 @@ def printHelp(name):
 
 def run():
     try:
-        file = sys.argv[1]
+        filename = sys.argv[1]
     except:
         printHelp(sys.argv[0])
 
-    myDico = params.readParms(file)
-    params.printParms(myDico)
+    myDico = params.readParameters(filename)
+    params.printParameters(myDico)
 
 #####################################################################
 # This is the main program

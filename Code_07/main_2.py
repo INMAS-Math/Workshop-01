@@ -55,7 +55,7 @@ def processCommandLineArgs(argv):
 
 def run():
     a, b, c, sourceCode, desiredOutcome = processCommandLineArgs(sys.argv)
-    print(a, b, c, sourceCode, desiredOutcome)
+    print('Arguments are:', 'a=',a, 'b=', b, 'c=', c, 'sourceCode=', sourceCode, 'desiredOutcom=', desiredOutcome)
     
 
 #####################################################################
