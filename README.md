@@ -12,9 +12,9 @@ Here is an overview of the notebooks that are part of Workshop #1. The two colum
 |02  |  Additional Python practice | 35 m| 40 m|
 |03  |  Modules and matplotlib | 20 m | 15 m |
 |04  |  Input/Output | 10 m | 5 m |
-|05a |  Rock/Paper/Scissors | 25 m | 5 m |
-|05b |  Hangman | N/A | 1 h |
 |06  |  Functions | 35 m | 10 m |
+|06a |  Rock/Paper/Scissors | 25 m | 5 m |
+|06b |  Hangman | N/A | 1 h |
 |07  |  Elements of Software Engineering | 30 m | 25 m |
 |08  |  Debugging fundamentals | 30 m| N/A |
 |09  |  numpy basics | 25 m| 15 m |
