@@ -1,6 +1,6 @@
 <img src="images/Picture0.png" width=250x\>
 
-# The Internship Network in Mathematical Sciences
+# The Internship Network in the Mathematical Sciences
 ## Workshop #1 - Introduction to Python
 This material is part of the INMAS Workshop Series.
 
