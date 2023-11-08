@@ -28,6 +28,9 @@ Here is an overview of the notebooks that are part of Workshop #1. The two colum
 |15 |  Visualizing using Seaborn | 30 m | N/A |
 |16 |  Project 4: Analyzing Redfin data | 2 h | N/A |
 
+### Credits
+Notebooks and curriculum originally developed by Emily Shinkle, Shinhae Park, Adriana Morales Miranda, and Luke Leisman, with additional original contributions from Martin Lacasse. Many INMAS TAs have since contributed significant updates and improvements. Sources are credited in individual notebooks.
+
 # Anaconda Starter
 The material of this workshop is based on using Jupyter notebooks. We will first describe how to get a proper installation of Anaconda, an open-source package manager and Python distribution that includes a suite of useful packages (in addition to basic Python) pre-installed, as well as package management tools. This package manager provides an easy way to install additional Python packages that you might need in addition to the most popular packages. Don't worry however: most if not all Python packages needed for the first workshop are included in the default distribution.
 
@@ -182,6 +185,3 @@ where man stands for manual.
 Files can be copied (`cp`), moved (`mv`), or deleted (`rm`). Use `man` to get more information on these commands. Be cautious with the `rm` command as it does not ask for a confirmation of the deletion by default.
 
 Using a command line interface is often the preferred method for navigating directories, or projects with multiple files, especially when one is using a version control system such as `git`.
-
-## Credits
-Notebooks and curriculum originally developed by Emily Shinkle, Shinhae Park, Adriana Morales Miranda, and Luke Leisman, with additional original contributions from Martin Lacasse. Many INMAS TAs have since contributed significant updates and improvements. Sources are credited in individual notebooks.
